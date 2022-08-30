@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Assalmu Alikum"
+      ],
+      "responses": [
+        "Hey!! Welcome to Comsats Official Website!",
+        "Hello, thanks for messaging,",
+        "Hi there, what can I do for you?",
+        "Hi there, Welcome to Comsats Official Website, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Allah Hafiz"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which courses do you offer?",
+        "Do you Offer Health Infomatics",
+        "Do you Offer Software Engineeering?",
+        "Do you Offer Computer Sciences?",
+        "Computer Science",
+        "Software Engineering",
+        "Health informatics"
+
+      ],
+      "responses": [
+        "You can visit ww3.comsats.edu.pk/internationalstudents/Allprograms.aspx to view all offered programs",
+        "Please visit our website or call admission office at (92-51) 9049 5032-5 for details",
+        "You can get list of all offered programs from here: www.comsats.edu.pk/offices/UndergradPrograms.aspx"
+      ]
+    },
+    {
+      "tag": "campusenv",
+      "patterns": [
+        "What kind of study environment comsats provide?",
+        "Do Comsats provide competitive study environment",
+        "Is Comsats co?",
+        "co education",
+        "study environment?",
+        "competitive study"
+
+      ],
+      "responses": [
+        "Comsats provides competitive co-educational evironment",
+        "Yes!"
+
+      ]
+    },
+    {
+      "tag": "feestructure",
+      "patterns": [
+        "How much comsats charge per semester?",
+        "Comsats Fee Structure?",
+        "Comsats Fee",
+        "How much fee?",
+        "fee structure",
+        "fee"
+      ],
+      "responses": [
+        "You can get details by visiting this: https://www.eduvision.edu.pk/comsats-university-comsats-islamabad-ins-9",
+        "Call us at 051-90495078 for fee details"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Do comsats have own hostel?",
+        "Any Hostels?",
+        "Comsats provide hostels?",
+        "Hostel facility available?",
+        "hostels"
+      ],
+      "responses": [
+        "Sorry, Comsats don't have its own hostel.",
+        "At moment, we don't have, but you can visit Hostel City?"
+      ]
+    },
+
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Do comsats provide scholarship?",
+        "Comsats has financial assistance?",
+        "need base scholarship?",
+        "scholarship"
+
+      ],
+      "responses": [
+        "Yes we do provide scholarships, Call us at: 051-90495470 for more details",
+        "Yes, comsats provide limited scholarship, you can get details from here: http://ww3.comsats.edu.pk/scholarships/"
+      ]
+    },
+
+     {
+      "tag": "busservice",
+      "patterns": [
+        "Do comsats provide transportation?",
+        "Comsats have buses?",
+        "Do comsats provide transportation facility?",
+        "Do comsats provide pick and drop ?",
+        "transportation",
+        "buses"
+
+      ],
+      "responses": [
+        "Yes Comsats provide transportation , Call us at: 051-90495470 for more details",
+        "Yes, comsats provide transportation visit this for more details: http://islamabad.comsats.edu.pk/transport.aspx"
+      ]
+    },
+    {
+      "tag": "khusian",
+      "patterns": [
+        "Comsats mein admisson le lon?",
+        "Comsats Mein Campus Life achi hay?",
+        "admission le lon?",
+        "admission lon"
+
+
+      ],
+      "responses": [
+        "Bhai Zindagi say q bezar ho?",
+        "Bhai apny risk pr le lo",
+        "Zindagi Bhr rona hay?"
+      ]
+    }
+
+  ]
+}
